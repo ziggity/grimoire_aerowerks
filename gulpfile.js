@@ -11,8 +11,7 @@ var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 const sourcemaps = require('gulp-sourcemaps');
-const autoprefixer = require('gulp-autoprefixer');
-
+const autoprefixer = require('gulp-autoprefixer').default;
 /* Setup scss path */
 var paths = {
     scss: './sass/*.scss'
